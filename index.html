@@ -1,1 +1,65 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sabrina Ren</title>
+
+		<link rel="shortcut icon" href="/favicon.ico?cache=no" type="image/x-icon"/>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="particles-js"></div>
+		<canvas id="canvas" resize></canvas>
+
+		<div class="container-fluid">
+			<div class="section" id="intro">
+				<div class="row">
+					<div class="col-xs-10 col-md-9">
+						<h1>hi there</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12">
+						<p>
+							I'm a student in my last year of a software engineering and business dual degree program at Western University. During my last two summers, I interned at Yelp on the Growth and iOS teams.
+						</p>
+						<p>
+							I appreciate thoughtful product design, clean code, and new challenges.
+						</p>
+						<p>
+							Say 
+							<script>
+								hello = 'hello';
+								name = 'sabrinaren'
+								document.write('<a href=\"mailto:'+hello+'@'+name+'.co\">');
+								document.write(hello+'@'+name+'.co</a>');
+							</script>
+							(:
+						</p>
+						<div class="social">
+							<a href="http://github.com/sabrina-ren">
+								<img src="assets/github.png" alt="github">
+							</a>
+							<a href="https://ca.linkedin.com/in/rensabrina">
+								<img src="assets/linkedin.png" alt="linkedin">
+							</a>
+							<a href="http://sren.yelp.ca/">
+								<img src="assets/yelp.png" alt="yelp">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			 <p>made with ♥ from toronto</p>
+		</div>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/paper-full.min.js"></script>
+		<script type="text/paperscript" src="js/stars.js" canvas="canvas"></script>
+		<script src="js/particles.min.js"></script>
+	</body>
+</html>

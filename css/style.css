@@ -1,0 +1,69 @@
+@font-face {
+	font-family: 'RangeMono-Light';
+	src: url('../fonts/RangeMono-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1 {
+	font-family: 'RangeMono-Light', serif;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+p {
+	font-family: 'RangeMono-Light', serif;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+a {
+	color: black;
+	text-decoration: underline;
+}
+
+a:hover{
+	color: rgb(16, 80, 180);
+	color: black;
+}
+
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 700px;
+	z-index: 1;
+}
+#canvas {
+	width:100%;
+	height:700px;
+	background: rgb(22, 35, 59);
+}
+
+.container-fluid {
+	padding: 0px;
+}
+
+.section {
+	padding: 80px 55px 140px 55px;
+}
+
+.social img {
+	padding: 10px 50px 0px 0px;
+	width: 90px;
+	-webkit-filter: opacity(0.4);
+	filter: opacity(0.4);
+}
+
+.social img:hover {
+	-webkit-filter: opacity(0.8);
+	filter: opacity(0.8);
+}
+
+#intro h1 {
+	color: rgb(75, 213, 240);
+}
+
+#footer {
+	padding: 55px;
+	color: rgb(200, 200, 200);
+}
